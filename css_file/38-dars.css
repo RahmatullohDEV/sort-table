@@ -1,0 +1,13 @@
+.class {
+   text-align: center;
+}
+body{
+    background-color: gray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+iframe{
+    border-radius: 20px;
+}

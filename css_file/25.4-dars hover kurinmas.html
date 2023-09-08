@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        margin: 5px 0;
+        list-style: none;
+    }
+    ul{
+        margin-top: 10px;
+        display: none;
+    }
+    div{
+        padding: 10px;
+        display: inline-block;
+    }
+    div:hover ul{
+        display: block;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .how{
+        border: 1px linear-gradient(0.25turn,  #ff6565, #ff3d3d, #ff0000);
+        padding: 5px 20px;
+        border-radius: 15px;
+        background:linear-gradient(0.25turn,  #ff6565, #ff3d3d, #ff0000);
+        display: inline-block;
+    }
+    .how1{
+        border: 1px solid linear-gradient(0.25turn,  #878787, #4b4b4b, #0e0e0e);
+        background:  linear-gradient(0.25turn, #878787, #4b4b4b, #0e0e0e);
+        padding: 10px 20px;
+        border-radius: 40px  40px 20px  20px;
+        display: inline-block;
+    }
+</style>
+<body>
+    <div>
+        <a class="how1" href="">hover</a>
+        <ul>
+            <li class="how"><a href="">link1</a></li>
+            <li class="how"><a href="">link2</a></li>
+            <li class="how"><a href="">link3</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>

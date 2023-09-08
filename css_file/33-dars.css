@@ -1,0 +1,14 @@
+.text{
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/aa/b1/79/caption.jpg?w=1200&h=-1&s=1");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}

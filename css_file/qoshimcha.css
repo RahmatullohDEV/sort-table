@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: block;
+    justify-content: center;
+}
+.slide{
+    border: 1px solid red;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 3px 15px black;
+    width: 540px;
+    height: 220px;
+    background-image: url(./detal/Qut1ySni0b6hcaebAdhhzH7_nLH0sl78lJ0XuWxDbLaHgjo3WxYNo0XrnNsAaRv1jJA=h900.webp);
+    background-size: cover;
+    margin: 10px 10px;
+    animation: slide 20s infinite;
+    color: rgb(241, 33, 14);
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@keyframes slide{
+    20%{
+        background-image: url(./detal/bmw-car-smoke-wallpaper-preview.jpg);
+    }
+    40%{
+        background-image: url(./detal/bmw.webp);
+    }
+    60%{
+        background-image: url(./detal/bmw.jpg);
+    }
+    80%{
+        background-image: url(./detal/maxresdefault.jpg);
+    }
+    100%{
+        background-image: url(./detal/bmw-brand-logo-cars-wallpaper-preview.jpg);
+    }
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.div{
+    border: 1px solid blue;
+    border-radius: 20px 20px;
+    width: 600px;
+    height: 500px;
+    padding: 20px 5px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 3px 15px black;
+    margin: auto;
+}
+.text{
+    text-align: center;
+}
+.face4{
+font-size: 35px;
+     
+}
+a{
+    font-size: 15px;
+    color: rgb(0, 255, 102);
+    text-decoration: underline;
+}

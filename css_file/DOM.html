@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="DOM.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <input type="text" id="one" placeholder="Value :1:">
+            <input type="text" id="two" placeholder="Value :2:">
+            
+            <div class="button1">
+                <button class="button" onclick="calculation('add1')">+</button>
+                <button class="button" onclick="calculation('add2')">-</button>
+                <button class="button" onclick="calculation('add3')">*</button>
+                <button class="button" onclick="calculation('add4')">/</button>        
+            </div>
+                <h1 id="result">Natija: 0</h1>  
+        </div>
+    
+        <div class="become">
+            <button class="" id="button1" onclick="clearWork()">Clear</button>
+        </div>
+    </div>
+    <script src="DOM.js"></script>  
+</body>
+</html>

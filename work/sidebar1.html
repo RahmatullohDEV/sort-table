@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sidebar1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- bottom menu -->
+    <div class="iconMobile">
+        <a href=""><i id="iconn" class="fa-solid fa-house"></i></a>
+        <a href=""><i id="iconn" class="fa-regular fa-user"></i></a>
+        <a href=""><i id="iconn" class="fa-solid fa-screwdriver-wrench"></i></a>
+        <a href=""><i id="iconn" class="fa-solid fa-clipboard-list"></i></a>
+        <a href=""><i id="iconn" class="fa-regular fa-message"></i></a>
+    </div>
+    <!-- sidebar menu -->
+    <nav class="sidebar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i id="icon" class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <div class="wrap">
+                <li>
+                    <i id="inpuut1" class="fa-regular fa-message"></i>
+                    <a href="#">message</a>
+                </li>
+                <li>
+                    <i id="inpuut1" class="fa-solid fa-screwdriver-wrench"></i>
+                    <a href="#">Service</a>
+                </li>
+                <li>
+                    <i id="inpuut1" class="fa-regular fa-user"></i>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <i id="inpuut1" class="fa-solid fa-clipboard-list"></i>
+                    <a href="#">Our work</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    
+
+    <script>
+        var iconElement = document.getElementById("icon"); // elementni tanlash
+var previousColor = iconElement.style.color; // avvalgi rangni saqlash
+
+iconElement.addEventListener("click", function() {
+  if (iconElement.style.color === previousColor) {
+    iconElement.style.color = "white"; // Yangi rangni sozlash
+  } else {
+    iconElement.style.color = previousColor; // Avvalgi rangga qaytarish
+  }
+});
+    </script>
+</body>
+</html>

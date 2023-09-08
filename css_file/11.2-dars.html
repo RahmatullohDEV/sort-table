@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .picker{
+            border: 1px solid gray;
+        }
+        .text-right{
+            text-align: right;
+        }
+        div{
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+        .color{
+            background-color: green;
+            height: 50px;
+        }
+        input{
+            width: 100%;
+            text-align: center;
+        }
+        div > input{
+            width: 23%;
+        }
+</style>
+
+</head>
+<body>
+
+    <div class="picker">
+        <div>
+            <h3>colour picker</h3>
+            <h6 class="text-right">colour picker</h6>
+        </div>
+        <div class="color">
+        </div>
+        <dir>
+            <input type="range">
+            <input type="text" value="#32a834">
+        </dir>
+        <div>
+            <input type="text" value="50,168,52">
+            <input type="text" value="70%,0%,69%">
+            <input type="text" value="217°, 73%, 96%">
+            <input type="text" value=" 217°, 90%, 61%">
+        </div>
+    </div>
+    
+</body>
+</html>

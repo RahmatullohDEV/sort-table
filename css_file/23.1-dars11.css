@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(4, 143, 102);
+    height: 1000vh;
+    font-family: sans-serif;
+}
+.card{
+    width: 1000px;
+    height: 600px;
+    background-color:   rgb(67, 67, 67);
+    margin-top: 55px;
+    display: flex;
+    box-shadow: 0 0 15px black;
+}
+img{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: -60px;
+    left: -40px;
+    transform: rotate(15deg);
+    
+}
+.left{
+    width: 50%;
+    background:linear-gradient(0.25turn, #63fd99, #0fe160, #00b457);
+    height: 600pxvh;
+    border-radius: 0 75% 75% 0;
+}
+.right{
+    width: 50%;
+}
+.product{
+    display: flex;
+}
+.use{
+    margin-top: 40px;
+    padding-right: 20px;
+    margin-left: 25px;
+    color: white;
+}
+.h01{
+    margin-top: 27px;
+    color: rgb(41, 203, 248);
+    margin-left: 40px;
+}
+.dol{
+    display: flex;
+    color: #fff;
+    margin-top: 10px;
+}
+.dol h3{
+    text-decoration: line-through #ea3201;
+    font-family: "muli";
+    margin-left: 30px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+.inf{
+    margin-top: 100px;
+    margin-left: 40px;
+    color: #fff;
+}
+.inf h1{
+    margin-top: 10px;
+}
+.size{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.siz{
+    padding-right: 45px;
+    color: #fff;
+}
+.color{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.h03{
+    margin-top: 12px;
+    color: #fff;
+}
+.col{
+    background-color: rgb(255, 255, 67);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    right: -100px;
+}
+.sal{
+    font-size: 80px;
+}
+.sale{
+    margin-left: 10px;
+    display: flex;
+    margin-top: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+.sale i{
+    padding-right: 20px;
+}
+.sale h3{
+    padding-right: 60px;
+}
+.col1{
+    background-color: rgb(43, 255, 15);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    right: -150px;
+}
+.col2{
+    background-color: rgb(34, 144, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position:relative;
+    right: -200px;
+
+}

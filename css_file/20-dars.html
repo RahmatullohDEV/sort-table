@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: auto;
+            height: 400px;
+            background-color: blue;
+        }
+        [class^="item"] {
+            box-shadow: 5px 5px 5px white;
+        }
+        .item1{
+            position: absolute;
+            left: 80px;
+            top: 30px;
+            z-index: 6;
+            width: 200px;
+            height: 40px;
+            background-color: red;
+        }
+        .item2{
+            position: absolute;
+            left: 60px;
+            top: 40px;
+            z-index: 5;
+            width: 250px;
+            height: 40px;
+            background-color: green;
+        }
+        .item3{
+            position: absolute;
+            left: 40px;
+            top: 50px;
+            z-index: 4;
+            width: 300px;
+            height: 40px;
+            background-color: yellow;
+        }
+        .item4{
+            position: absolute;
+            left: 20px;
+            top: 60px;
+            z-index: 3;
+            width: 345px;
+            height: 40px;
+            background-color: black;
+        }
+        .item5{
+            position: absolute;
+            left: 10px;
+            top: 80px;
+            z-index:2 ;
+            width: 375px;
+            height: 40px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+    </div>
+</body>
+</html>

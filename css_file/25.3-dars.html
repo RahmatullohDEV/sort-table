@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        body{
+            background:  linear-gradient(0.25turn, #d5d5d5, #ebebeb, #ffffff);
+        }
+        .nav{
+            display: flex;
+            width: 90%;
+        }
+        ul{
+            display: flex;
+            background:  linear-gradient(0.25turn, #878787, #4b4b4b, #0e0e0e);
+        }
+        a{
+            padding: 10px 30px;
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+        }
+        a:hover{
+            background-color: #4f4e4e;
+        }
+        li{
+            list-style: none;
+        }
+        .active{
+            background:  linear-gradient(0.25turn,#006c71, #0096b5, #00eaff);
+        }
+        .active:hover{
+            background:  linear-gradient(0.25turn,#27f4ff, #00b4d8, #008490);
+        }
+        .main-section > div {
+            width: 50%;
+            float: left;
+        }
+        .div{
+            padding: 20px 0 20px 20px;
+            color: rgb(40, 40, 40);
+            display: inline-block;
+        }
+        .image{
+            text-align: right;
+        }
+        .image img{
+            width: 30%;
+            padding: 30px 20px 20px 0;
+        }
+        .work{
+            border: 1px  linear-gradient(0.25turn, #878787, #4b4b4b, #0e0e0e);
+            background:  linear-gradient(0.25turn,#767afa, #43bfd8, #767afa);
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin: 20px 0 0 0;
+        }
+        .work:hover{
+            box-shadow: 0 0 10px black;
+        }
+        h1 ,h3, p{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <div class="nav">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Home</a></li>
+        </div>
+        <li><a href="">About</a></li>
+    </ul>
+    <div>
+        <header class="main-section">
+            <div class="div">
+                <h3>I m</h3>
+                <h1>Nasimjonov</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla unde quisquam incidunt fugiat ratione corrupti explicabo natus!</p>
+                <a target="_blank" class="work" href="./19-darsportfolio.html">SEE MY WORK</a>
+            </div>
+        </header>
+        <div class="image">
+            <img src="./detal/Blue-Moon-Isolated-Icon-300px.gif" alt="">
+        </div>
+    </div>
+</body>
+</html>

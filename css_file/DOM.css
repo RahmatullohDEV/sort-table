@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+.container{
+    margin: auto;
+    width: 400px;
+    height: 340px;
+    margin-top: 100px;
+    padding-top: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    background:linear-gradient(to top, rgb(178, 178, 178),rgb(160, 160, 160),rgb(171, 171, 171));
+}
+
+input{
+    border:1px solid rgb(255, 255, 255) ;
+    width: 300px;
+    outline: none;
+    display: block;
+    margin: auto;
+    padding: 10px ;
+    margin-top: 5px;
+}
+
+
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2px 30px;
+    margin: 8.5px;
+}
+
+#result{
+    border: 1px solid rgb(255, 255, 255);
+    width: 320px;
+    height: 110px;
+    margin: auto;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: dodgerblue;
+    background-color: white;
+}
+
+#button1{
+    text-align: center;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 5px 137px;
+    border-radius: 0 0 10px 10px;
+    border: none;
+}
+
+.become{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#one{
+    border-radius: 10px 10px 0 0;
+}

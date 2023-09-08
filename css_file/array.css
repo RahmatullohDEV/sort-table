@@ -1,0 +1,27 @@
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 200px;
+    height: 20px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px 0 0 20px;
+    padding-left: 20px;
+    border-right: none;
+}
+::placeholder{
+    text-align: start;
+    padding-left: 10px;
+}
+button{
+    border: none;
+    border: 1px solid black;
+    border-left: none;
+    background-color: white;
+    padding: 3px 11px;
+    border-radius: 0 20px 20px 0;
+}
+

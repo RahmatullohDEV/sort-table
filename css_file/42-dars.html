@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens:{
+              sx:{"max":"640px"},
+              sm: "640px",
+              md: "768px",
+              lg:"1024px",
+              xl: "1280px",
+              "2xl":"1536px",
+            },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <nav class="flex justify-between items-center px-20 py-4 ">
+      <div>
+        <img class="sx:-ml-5" src="./detal/inteo.png" alt="">
+      </div>
+      <div class="flex items-center ">
+        <ul class="flex ">
+          <li class="md:cursor-pointer sx:hidden">
+            <a class="pr-4  hover:text-orange-800" href="">Home</a>
+            <a class="pr-4  hover:text-orange-800" href="">About</a>
+            <a class="pr-4  hover:text-orange-800" href="">About Us</a>
+          </li>
+        </ul>
+        <button class="md:px-6 py-1 bg-orange-800 text-lg text-white hover:bg-black sx:ml-6 px-4 -mr-5 ">
+          Contact Us
+        </button>
+      </div>
+    </nav>
+
+      <div class="text-center sx:mx-5">
+        <h1 class="font-serif text-[55px] pt-20 pb-5">Make <span class="italic">your home</span> an ode to joy</h1>
+        <p class="md:w-2/3 md:ml-[200px] sx:my-5 w-[320px] ml-5">We turn your empty house to a lovely home, making the compact spaces  with sapce saving furnitures. Making the unique tastes of yours into reality! </p>
+      </div>
+
+      <div class="relative flex justify-center items-center mt-20">
+        <img src="./detal/1111111111111111111111.png" alt="">
+        <div class="md:absolute z-1 -top-12 left-24 sx: absolute left-32 ">
+          <img src="./detal/CTA Button.png" alt="">
+        </div>
+      </div>
+      
+      <div class="md:mb-40 md:flex justify-center items-center border-solid border-tranparent bg-stone-900 w-full md:h-32 sx:block h-[583px]">
+        <h1 class="md:font-serif text-slate-300 text-[18px] -rotate-90 sx:absolute sx:right-322 sx:-bottom-8">Awards</h1>
+        <img class="sx:absolute left-16 -bottom-5" src="./detal/Line.png" alt="">
+        <img class="md:pl-5 w-20 sx:w-24 sx:ml-40" src="./detal/german-design-award.png" alt="">
+        <h1 class="md:pl-2 pr-5 text-white text-[10px] sx:text-[14px] sx:ml-40">German Design Award <br> 2021</h1>
+        <img class="md:pl-5 w-20 sx:w-24 sx:ml-40" src="./detal/a-design-award.png" alt="">
+        <h1 class="md:pl-2 pr-5 text-white text-[10px] sx:text-[14px] sx:ml-40">Gold A’ Design Award <br>2021</h1>
+        <img class="md:pl-5 w-20 sx:w-24 sx:ml-40" src="./detal/if-design-award.png" alt="">
+        <h1 class="md:pl-2 pr-5 text-white text-[10px] sx:text-[14px] sx:ml-40">IF Design Award<br> 2020</h1>
+        <img class="md:pl-5 w-20 sx:w-24 sx:ml-40" src="./detal/good-design-award.png" alt="">
+        <h1 class="md:pl-2 text-white text-[10px] sx:text-[14px] sx:ml-40">Good Design Award<br> 2019</h1>
+      </div>
+
+        <div class="md:relative flex items-center pl-20 sx:mt-10">
+          <img src="detal/Line2.png" alt="">
+          <h1 class="text-orange-800 pl-5">About us</h1>
+          <div class="absolute left-[650px] top-0">
+            <img class="w-30" src="./detal/Badge.png" alt="">
+          </div>
+        </div>
+        <section class="md:flex justify-center items-center mb-40 ">
+          <div class="md:flex sx:block">
+            <h2 class=" md:mt-10 ml-20 font-serif text-[30px] sx:mx-5">We help to bring your <span class="italic">dream home</span> to reality <p class="text-[16px] font-sans pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam. Erat id laoreet posuere etiam morbi.</p><p  class="text-[16px] font-sans pt-5">Tempor dolor elementum tellus non ipsum faucibus. Justo, magna mauris posuere auctor justo. Habitant proin aliquet volutpat leo ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc. Faucibus sit odio bibendum lobortis diam.</p></h2>
+            <img class="md:w-3/5 pr-20  pl-20 sx:px-5 w-[500px] mt-10" src="detal/about-creative.png" alt="">
+          </div>
+      </section>
+
+      <section class="md:flex justify-center items-center mb-20 sx:block text-center -my-20">
+        <h1 class="font-serif text-[50px] pr-2">100%</h1>
+        <p class="text-[12px] pr-16">SATISFITATION <br> CLIENTS</p>
+        <h1 class="font-serif text-[50px] pr-2">250</h1>
+        <p class="text-[12px] pr-16">EMPLOYEES ON<br> WORLDWIDE </p>
+        <h1 class="font-serif text-[50px] pr-2">3469</h1>
+        <p class="text-[12px] pr-16">PROJECTS COMPLETED <br> ON 60 COUNTRIES </p>
+      </section>
+
+      <hr class="mb-20 mx-20">
+
+      <div class="flex items-center pl-20">
+        <img src="./detal/Line2.png" alt="">
+        <h1 class="text-orange-800 pl-5">Our Services</h1>
+      </div>
+      <div class="py-10">
+        <h1 class="md:pl-20 md:text-[41px] font-serif md:w-4/6 sx:text-[30px] w-[300px] ml-10" >We provide the <span class="italic">best solutions</span> for your dream home</h1>
+      </div>
+
+      <div class="md:flex justify-center items-center sx:block ml-9">
+        <div class="border-black border-x border-y bg-white m-3 w-72 h-80 hover:shadow-2xl">
+          <img class="px-5 pt-7" src="./detal/Service Icon.png" alt="">
+          <h1 class="pt-10 px-5 text-[30px] font-serif">Architectural & Interior design</h1>
+          <p class="pt-5 pl-5">Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
+        </div>
+        <div class=" border-black border-x border-y bg-white m-3 w-72 h-80 hover:shadow-2xl">
+          <img class="px-5 pt-7" src="./detal/Service Icon (1).png" alt="">
+          <h1 class="pt-10 px-5 text-[30px] font-serif">Building Renovation</h1>
+          <p class="pt-5 pl-5">Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
+        </div>
+        <div class=" border-black border-x border-y bg-white m-3 w-72 h-80 hover:shadow-2xl">
+          <img class="px-5 pt-7" src="./detal/Service Icon2.png" alt="">
+          <h1 class="pt-10 px-5 text-[30px] font-serif">Construciton Management</h1>
+          <p class="pt-5 pl-5">Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies.</p>
+        </div>
+      </div>
+
+      
+        <div class="flex items-center pl-20 pt-20 sx:w-[360px]">
+          <img src="./detal/Line2.png" alt="">
+          <h1 class="text-orange-800 pl-5">RECENT WORKS</h1>
+        </div>
+        <div class="flex items-center justify-center"></div>
+        <div class=" float-left w-3/5">
+          <h1 class="md:pl-20 w-2/3 pt-10 text-[35px] font-serif sx:px-10 text-[30px] w-[380px]">Some of <span class="italic">our crafts</span> made with love</h1>
+          <img class="md:pl-20 py-10 md:w-3/4 sx:mx-20 w-[100%]" src="./detal/Image222222.png" alt="">
+          <h1 class=" md:pl-20 w-2/3 text-[27px] font-serif sx:px-10 text-[28px] w-[350px]">Villa Furnishing & Interior</h1>
+          <p class="md:pl-20 pt-5 w-2/3 sx:px-10 w-[350px] -mb-20">  elit. Faucibus fringilla dui amet faucibus nam. Erat id laoreet posuere etiam morbi.</p>
+          <button class="md:border-solid border-tranparent bg-orange-800 py-2 ml-20 my-20 mt-28 px-5 text-white sx:ml-10">Contact Us</button>
+        </div>
+  
+        <div class="md:float-rigt sx:mx-10">
+          <img class="w-80 mr-10 " src="./detal/Image33333.png" alt="">
+          <h2 class="text-[27px] font-serif pt-10">Luxury Hotel Renovation</h2>
+          <p class="pr-20 pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla.</p>
+        </div>
+        <div class="md:float-rigt sx:mx-10">
+          <img class="w-80 mr-10 mt-10 " src="./detal/Image33333.png" alt="">
+          <h2 class="text-[27px] font-serif pt-10">Residence Swimming Pool</h2>
+          <p class="pr-20 pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla.</p>
+        </div>
+  
+      <hr class="mt-16 mb-16 mx-20">
+
+      <div class="md:flex justify-center items-center sx:block">
+        <div>
+          <h1 class="md:pl-20 pb-10 font-serif md:text-[35px] w-8/12 sx:text-[25px] sx:mx-10">Kick-start your dream home with us</h1>
+          <a href="" class="md:text-orange-800 pl-20 text-[35px] pt-10 font-serif underline italic sx:text-[25px] sx:px-10 text-orange-800 ">Send us a hi</a>
+        </div>
+        <div class="sx:mx-10">
+          <h1 class="pr-20 pb-3 font-serif text-[28px] mt-20">Brooklyn, New York</h1>
+          <p class="pr-20 pb-10 w-96 sx:w-[300px]">962 Fifth Avenue Str, 3rd Floor-Trump Building NY 10006, United State.</p>
+          <p class="text-[13px]">Email us at</p>
+          <h1 class="text-orange-800 text-[20px] font-serif pb-10">insta@Rahmatulloh__official</h1>
+          <p class="text-[13px]">If you're hurry, quick call for us</p>
+          <h1 class="text-orange-800 text-[25px] font-serif">+998(94)300-12-15</h1>
+        </div>
+      </div>
+
+      <hr class="mt-16 mb-16 mx-20">
+
+      <div class="flex justify-center items-center mb-10 sx:block sx:mx-10">
+        <p class="md:pr-40 sx:pr-10">© 2022 Inteo - Award winning studio. Made with love by <span class="text-orange-800">Landify</span></p>
+        <h1 class="pr-3"> CONNECT</h1><img class="pr-3" src="./detal/Line2.png" alt="">
+        <i class="fa-brands fa-instagram text-orange-800 pr-3"></i>
+        <i class="fa-brands fa-facebook text-orange-800 pr-3"></i>
+        <i class="fa-brands fa-youtube text-orange-800 pr-3"></i>
+        <i class="fa-brands fa-twitter text-orange-800"></i>
+      </div>
+</body>
+</html>
