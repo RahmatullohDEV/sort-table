@@ -63,3 +63,9 @@
     background-color: rgb(255, 249, 249);
     overflow: hidden;
 }
+
+table, th, td{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

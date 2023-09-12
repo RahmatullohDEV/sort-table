@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopSORT</title>
+    <link rel="stylesheet" href="shopSortable.css">
+</head>
+<body>
+    <section class="container">
+        <div class="range">
+            <h2>Narxi</h2>
+            <input id="pi_input" type="range" min="1000000" max="10000000" step="500000" />
+            <p>so'm: <output id="value"></output></p>
+        </div>
+
+        <div class="brand">
+            <h2>BRAND</h2>
+            <div>
+                <input type="checkbox" id="acer" name="acer" />
+                <label for="acer">acer</label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="asus" name="asus" />
+                <label for="asus">asus</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="hp" name="hp" />
+                <label for="hp">hp</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="lenovo" name="lenovo" />
+                <label for="lenovo">lenovo</label>
+            </div>
+        </div>
+    </section>
+
+    <table id="shopTable" class="table table-sortable">
+        <thead>
+            <tr>
+                
+            </tr>
+        </thead>
+        <tbody class="shopJson_qiymat">
+            
+        </tbody>
+    </table>
+
+    <script src="shopSortable.js"></script>
+</body>
+</html>

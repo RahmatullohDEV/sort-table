@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+/* input style */
+.container {
+    margin: 0px 20px;
+    border-right: 1px solid black;
+    width: 150px;
+    height: 200vh;
+    float: left;
+    width: 15%;
+}
+
+.range {
+    padding-top: 40px ;
+}
+
+.brand {
+    margin: 40px 0px;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+input{
+    cursor: pointer;
+}
+
+/* table style */
+td {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.shopJson_qiymat td:hover {
+    box-shadow: 0 0 15px rgb(181, 181, 181);
+}
+
+.shopJson_qiymat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* img style */
+img {
+    width: 150px;
+    border-radius: 5px;
+    display: block;
+}
+
+
